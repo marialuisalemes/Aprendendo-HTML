@@ -1,0 +1,60 @@
+*{
+    background-color: rgb(235, 117, 196);
+}
+
+h1 {
+    color: rgb(2, 1, 3);
+    border: 6px solid purple
+}
+
+#Augusto {
+    position: absolute;
+    top: 100px;
+    left: 179px;
+    width: 300px;
+    height: 300px;
+}
+#Juju {
+    position: absolute;
+    top: 100px;
+    left: 489px;
+    width: 300px;
+    height: 300px;
+}
+#Moranguinho {
+    position: absolute;
+    top: 100px;
+    left: 799px;
+    width: 300px;
+    height: 300px;
+}
+#Chimmy {
+    position: absolute;
+    top: 410px;
+    left: 440px;
+    width: 400px;
+    height: 300px;
+}
+#Pitoco {
+    position: absolute;
+    top: 721px;
+    left: 265px;
+    width: 300px;
+    height: 300px;
+}
+#Julie {
+    position: absolute;
+    top: 720px;
+    left: 740px;
+    width: 300px;
+    height: 300px;
+}
+
+@media(max-width:800px) {
+    h1{
+        color: rgb(235, 117, 196);
+    }
+*{
+    background-color: lightskyblue;
+}
+}

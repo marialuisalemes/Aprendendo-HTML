@@ -1,0 +1,156 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.menu-principal {
+    width: 100%;
+    background-color: #9fb1ee;
+    height: 60px;
+}
+main, .content {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+.logo {
+    padding: 10px;
+}
+
+.header-2 {
+    background-color: #f1f3f8;
+    width: 980px;
+    margin: o auto;
+}
+.menu-urls {
+    height: 60px;
+    border-top: 3px solid #f0f1f5;
+    border-bottom: 3px solid #f3f4f7;
+}
+.menu ul li {
+
+    display: inline-block;
+    color: #200a6d;
+    margin-left: 15px;
+    height: 20px;
+}
+
+.menu ul li:hover {
+    border-bottom: 3px solid rgb(250, 247, 247);
+}
+
+.menu ul li a:hover {
+    color: whitesmoke;
+    border-bottom: 1px solid rgb(250, 241, 241);
+}
+
+.menu ul li a {
+    color: #2828a5;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.menu {
+    width: 70%;
+    float: left;
+}
+.busca {
+    text-align: center;
+    width: 30%;
+    float: right;
+}
+.busca input {
+    height: 36px;
+    padding: 7px;
+    width: 190px;
+    margin-top: 10px;
+    background-position: 96%;
+    border: 1px solid white
+}
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url('../IMG\ 2/seta 2.jpg');
+    top: 35%;
+    left: 0;
+}
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url('../IMG\ 2/seta 2.jpg');
+    top: 35%;
+    right: 0;
+}
+
+.slick-list {
+    width: 100%!important;
+}
+
+.slick-initialized {
+    overflow: hidden;
+}
+.slick-dots li button {
+    font-size: 0px;
+    border: 5px solid rgb(237, 245, 245);
+    width: 26px;
+    height: 26px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 43%;
+    top: 750px;
+}
+.slick-dots li {
+    padding-left: 10px;
+    display: inline-block;
+}
+
+.texto-destaque {
+    text-align: center;
+}
+
+.texto-destaque h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: darkblue;
+}
+.texto-destaque p {
+    font-size: 20px;
+    color: #060664;
+}
+
+.col-3 {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 29%;
+    float: left;
+    position: relative;
+}
+.bloco-texto {
+    margin-top: 3em;
+}
+
+
+
+    
